@@ -23,7 +23,7 @@
 					},
 					{
 						"title": "Lorem ipsum",
-						"imageUrl": "../assets/images/finance_management.jpg",
+						"imageUrl": "../think-design/assets/images/finance_management.jpg",
 						"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
 						"ctaLabel": "Go Yahoo !", 
 						"ctaUrl": "http://www.yahoo.com"
@@ -42,7 +42,7 @@
 						"ctaUrl": "http://www.yahoo.com"
 					},
 					{
-						"imageUrl": "../../../assets/images/tax_time.jpg",
+						"imageUrl": "../../../think-design/assets/images/tax_time.jpg",
 						"ctaLabel": "Time to think about taxes", 
 						"ctaUrl": "http://www.yahoo.com"
 					},
