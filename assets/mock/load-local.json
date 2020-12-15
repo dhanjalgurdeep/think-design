@@ -16,7 +16,7 @@
 				"second": [
 					{
 						"title": "Lorem ipsum",
-						"imageUrl": "../think-design/assets/images/accounting.jpg",
+						"imageUrl": "../assets/images/accounting.jpg",
 						"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
 						"ctaLabel": "Go Google !", 
 						"ctaUrl": "http://www.google.com"
@@ -32,12 +32,12 @@
 				"third": [
 					{
 						"title": "Questions ? The help you need to find.",
-						"imageUrl": "../../../think-design/assets/images/small-business.jpg",
+						"imageUrl": "../../../assets/images/small-business.jpg",
 						"ctaLabel": "Assistance on Finance", 
 						"ctaUrl": "http://www.google.com"
 					},
 					{
-						"imageUrl": "../../../think-design/assets/images/audit.jpg",
+						"imageUrl": "../../../assets/images/audit.jpg",
 						"ctaLabel": "Balancesheet Certification", 
 						"ctaUrl": "http://www.yahoo.com"
 					},
@@ -47,7 +47,7 @@
 						"ctaUrl": "http://www.yahoo.com"
 					},
 					{
-						"imageUrl": "../../../think-design/assets/images/investment.jpg",
+						"imageUrl": "../../../assets/images/investment.jpg",
 						"ctaLabel": "Small investment can make big difference", 
 						"ctaUrl": "http://www.yahoo.com"
 					}
