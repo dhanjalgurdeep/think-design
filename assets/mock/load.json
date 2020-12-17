@@ -1,68 +1,326 @@
 {
-	"nav": {
-		"home": {
-			"header": {
-				"title": "Think Design"
-			},
-			"sections": {
-				"first": [
-				{
-						"title": "",
-						"imageUrl": "",
-						"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!",
-						"ctaLabel": "Go Google !", 
-						"ctaUrl": "http://www.google.com"
-				}], 
-				"second": [
-					{
-						"title": "Lorem ipsum",
-						"imageUrl": "../think-design/assets/images/accounting.jpg",
-						"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
-						"ctaLabel": "Go Google !", 
-						"ctaUrl": "http://www.google.com"
-					},
-					{
-						"title": "Lorem ipsum",
-						"imageUrl": "../think-design/assets/images/finance_management.jpg",
-						"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
-						"ctaLabel": "Go Yahoo !", 
-						"ctaUrl": "http://www.yahoo.com"
-					}
-				],
-				"third": [
-					{
-						"title": "Questions ? The help you need to find.",
-						"imageUrl": "../../../think-design/assets/images/small-business.jpg",
-						"ctaLabel": "Assistance on Finance", 
-						"ctaUrl": "http://www.google.com"
-					},
-					{
-						"imageUrl": "../../../think-design/assets/images/audit.jpg",
-						"ctaLabel": "Balancesheet Certification", 
-						"ctaUrl": "http://www.yahoo.com"
-					},
-					{
-						"imageUrl": "../../../think-design/assets/images/tax_time.jpg",
-						"ctaLabel": "Time to think about taxes", 
-						"ctaUrl": "http://www.yahoo.com"
-					},
-					{
-						"imageUrl": "../../../think-design/assets/images/investment.jpg",
-						"ctaLabel": "Small investment can make big difference", 
-						"ctaUrl": "http://www.yahoo.com"
-					}
-				]
-				
+	"navs": [
+		{
+			"router": {
+				"routerName": "Home",
+				"isMobile": true,
+				"routerLink": "home",
+				"header": {
+					"title": "Think Design"
+				},
+				"sections": {
+					"first": [
+						{
+							"title": "",
+							"imageUrl": "",
+							"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!",
+							"ctaLabel": "Go Google !",
+							"ctaUrl": "http://www.google.com"
+						}
+					],
+					"second": [
+						{
+							"title": "Lorem ipsum",
+							"imageUrl": "../think-design/assets/images/accounting.jpg",
+							"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
+							"ctaLabel": "Go Google !",
+							"ctaUrl": "http://www.google.com"
+						},
+						{
+							"title": "Lorem ipsum",
+							"imageUrl": "../think-design/assets/images/finance_management.jpg",
+							"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
+							"ctaLabel": "Go Yahoo !",
+							"ctaUrl": "http://www.yahoo.com"
+						}
+					],
+					"third": [
+						{
+							"title": "Questions ? The help you need to find.",
+							"imageUrl": "../../../think-design/assets/images/small-business.jpg",
+							"ctaLabel": "Assistance on Finance",
+							"ctaUrl": "http://www.google.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/audit.jpg",
+							"ctaLabel": "Balancesheet Certification",
+							"ctaUrl": "http://www.yahoo.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/tax_time.jpg",
+							"ctaLabel": "Time to think about taxes",
+							"ctaUrl": "http://www.yahoo.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/investment.jpg",
+							"ctaLabel": "Small investment can make big difference",
+							"ctaUrl": "http://www.yahoo.com"
+						}
+					]
+				}
 			}
 		},
-		"services": {
-
+		{
+			"router": {
+				"routerName": "About",
+				"isMobile": true,
+				"routerLink": "about",
+				"sections": {
+					"first": [
+						{
+							"title": "",
+							"imageUrl": "",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!",
+							"ctaLabel": "Go Google !",
+							"ctaUrl": "http://www.google.com"
+						}
+					],
+					"second": [
+						{
+							"title": "About Questions ? The help you need to find.",
+							"imageUrl": "../../../think-design/assets/images/small-business.jpg",
+							"ctaLabel": "Assistance on Finance",
+							"ctaUrl": "http://www.google.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/audit.jpg",
+							"ctaLabel": "About Balancesheet Certification",
+							"ctaUrl": "http://www.yahoo.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/banner.jpeg",
+							"ctaLabel": "About Time to think about taxes",
+							"ctaUrl": "http://www.yahoo.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/investment.jpg",
+							"ctaLabel": "About Small investment can make big difference",
+							"ctaUrl": "http://www.yahoo.com"
+						}
+					],
+					"third": [
+						{
+							"title": "About Lorem ipsum",
+							"imageUrl": "../think-design/assets/images/accounting.jpg",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
+							"ctaLabel": "Go Google !",
+							"ctaUrl": "http://www.google.com"
+						},
+						{
+							"title": "About Lorem ipsum",
+							"imageUrl": "../think-design/assets/images/finance_management.jpg",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
+							"ctaLabel": "Go Yahoo !",
+							"ctaUrl": "http://www.yahoo.com"
+						}
+					]
+				}
+			}
 		},
-		"aboutus": {
-
-		}, 
-		"contactus": {
-			
+		{
+			"router": {
+				"routerName": "Portfolio",
+				"isMobile": true,
+				"routerLink": "portfolio",
+				"sections": {
+					"first": [
+						{
+							"title": "",
+							"imageUrl": "",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!",
+							"ctaLabel": "Go Google !",
+							"ctaUrl": "http://www.google.com"
+						}
+					],
+					"second": [
+						{
+							"title": "About Lorem ipsum",
+							"imageUrl": "../think-design/assets/images/accounting.jpg",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
+							"ctaLabel": "Go Google !",
+							"ctaUrl": "http://www.google.com"
+						},
+						{
+							"title": "About Lorem ipsum",
+							"imageUrl": "../think-design/assets/images/finance_management.jpg",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
+							"ctaLabel": "Go Yahoo !",
+							"ctaUrl": "http://www.yahoo.com"
+						}
+					],
+					"third": [
+						{
+							"title": "About Questions ? The help you need to find.",
+							"imageUrl": "../../../think-design/assets/images/small-business.jpg",
+							"ctaLabel": "Assistance on Finance",
+							"ctaUrl": "http://www.google.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/audit.jpg",
+							"ctaLabel": "About Balancesheet Certification",
+							"ctaUrl": "http://www.yahoo.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/tax_time.jpg",
+							"ctaLabel": "About Time to think about taxes",
+							"ctaUrl": "http://www.yahoo.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/investment.jpg",
+							"ctaLabel": "About Small investment can make big difference",
+							"ctaUrl": "http://www.yahoo.com"
+						}
+					]
+				}
+			}
+		},
+		{
+			"router": {
+				"routerName": "Faqs",
+				"isMobile": true,
+				"routerLink": "faqs",
+				"sections": {
+					"first": [
+						{
+							"title": "",
+							"imageUrl": "",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!",
+							"ctaLabel": "Go Google !",
+							"ctaUrl": "http://www.google.com"
+						}
+					],
+					"second": [
+						{
+							"title": "About Lorem ipsum",
+							"imageUrl": "../think-design/assets/images/accounting.jpg",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
+							"ctaLabel": "Go Google !",
+							"ctaUrl": "http://www.google.com"
+						},
+						{
+							"title": "About Lorem ipsum",
+							"imageUrl": "../think-design/assets/images/finance_management.jpg",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
+							"ctaLabel": "Go Yahoo !",
+							"ctaUrl": "http://www.yahoo.com"
+						}
+					],
+					"third": [
+						{
+							"title": "About Questions ? The help you need to find.",
+							"imageUrl": "../../../think-design/assets/images/small-business.jpg",
+							"ctaLabel": "Assistance on Finance",
+							"ctaUrl": "http://www.google.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/audit.jpg",
+							"ctaLabel": "About Balancesheet Certification",
+							"ctaUrl": "http://www.yahoo.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/tax_time.jpg",
+							"ctaLabel": "About Time to think about taxes",
+							"ctaUrl": "http://www.yahoo.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/investment.jpg",
+							"ctaLabel": "About Small investment can make big difference",
+							"ctaUrl": "http://www.yahoo.com"
+						}
+					]
+				}
+			}
+		},
+		{
+			"router": {
+				"routerName": "Links",
+				"isMobile": false,
+				"routerLink": "links",
+				"sections": {
+					"first": [
+						{
+							"title": "",
+							"imageUrl": "",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!",
+							"ctaLabel": "Go Google !",
+							"ctaUrl": "http://www.google.com"
+						}
+					],
+					"second": [
+						{
+							"title": "About Lorem ipsum",
+							"imageUrl": "../think-design/assets/images/accounting.jpg",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
+							"ctaLabel": "Go Google !",
+							"ctaUrl": "http://www.google.com"
+						},
+						{
+							"title": "About Lorem ipsum",
+							"imageUrl": "../think-design/assets/images/finance_management.jpg",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
+							"ctaLabel": "Go Yahoo !",
+							"ctaUrl": "http://www.yahoo.com"
+						}
+					],
+					"third": [
+						{
+							"title": "About Questions ? The help you need to find.",
+							"imageUrl": "../../../think-design/assets/images/small-business.jpg",
+							"ctaLabel": "Assistance on Finance",
+							"ctaUrl": "http://www.google.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/audit.jpg",
+							"ctaLabel": "About Balancesheet Certification",
+							"ctaUrl": "http://www.yahoo.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/tax_time.jpg",
+							"ctaLabel": "About Time to think about taxes",
+							"ctaUrl": "http://www.yahoo.com"
+						},
+						{
+							"imageUrl": "../../../think-design/assets/images/investment.jpg",
+							"ctaLabel": "About Small investment can make big difference",
+							"ctaUrl": "http://www.yahoo.com"
+						}
+					]
+				}
+			}
+		},
+		{
+			"router": {
+				"routerName": "Contactus",
+				"isMobile": false,
+				"routerLink": "contact",
+				"sections": {
+					"first": [
+						{
+							"title": "",
+							"imageUrl": "",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!",
+							"ctaLabel": "Go Google !",
+							"ctaUrl": "http://www.google.com"
+						}
+					],
+					"second": [
+						{
+							"title": "About Lorem ipsum",
+							"imageUrl": "../think-design/assets/images/accounting.jpg",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
+							"ctaLabel": "Go Google !",
+							"ctaUrl": "http://www.google.com"
+						},
+						{
+							"title": "About Lorem ipsum",
+							"imageUrl": "../think-design/assets/images/finance_management.jpg",
+							"content": "About Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur provident, recusandae temporibus voluptatem aut aperiam at nemo hic nesciunt, neque nobis. Dolore, est! Ipsa quis voluptatem repellat tempora dolorem!!",
+							"ctaLabel": "Go Yahoo !",
+							"ctaUrl": "http://www.yahoo.com"
+						}
+					]
+				}
+			}
 		}
-	}
+	]
 }
